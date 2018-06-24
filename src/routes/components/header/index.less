@@ -1,0 +1,58 @@
+
+@import '~../../../app.less'; //为什么+~
+@suffix : header;
+
+
+
+.half
+{
+    width: 50%;
+    display: inline-block;
+}
+.header_Wrapper@{suffix}{
+    
+    width: 100%;
+    z-index: 1;
+}
+.header_nav@{suffix}{
+    background: @baseBackGroundColor;
+    color: @baseForeGroundColor;
+    height: 56px;
+    >div:nth-child(1){
+       .half();
+        padding-left: 20px;
+    }
+    >div:nth-child(2){
+        .half();
+        text-align: right;
+        >a{
+                text-decoration: none;
+                color: @baseForeGroundColor;
+                position: relative;
+                top: 10px;
+                padding-right: 20px;
+        }
+    }
+}
+
+.search@{suffix}{
+    width: 200px;
+    margin-right:28px;
+    position: relative;
+    top: 11px;
+}
+
+.nav@{suffix}{
+        display: inline-block;
+        padding-left: 100px;
+        >span{
+            padding-left: 20px;
+            >a{
+                text-decoration: none;
+                color: @baseForeGroundColor;
+                position: relative;
+                top: 10px;
+                padding-right: 20px;
+            }
+        }
+}
