@@ -5,7 +5,7 @@ He believed, very simple, that every problem can be solved by honest,sensible pe
 and that the political life of a country must have no secrets and must be open for all to see and understand.
 Of course, we know that this is impossible , so perhaps his opinion of us is not worth considering.
 
-🦄Gulliver escapes from Brobdingnag 9
+🦄Gulliver escapes from Brobdingnag 
 
 I was still hoping to return to England one day.
 But the ship in which I had arrived in Brobdingnag was the first that had ever come near the coast.
