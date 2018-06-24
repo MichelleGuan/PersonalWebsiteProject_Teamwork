@@ -1,0 +1,36 @@
+
+@import '~../../app.less'; //为什么+~
+@suffix : article;
+
+
+
+ 
+.li@{suffix}{
+    
+    padding: 22px 24px;
+    height: 104px;
+    background: #fff;
+    border-bottom: 1px solid #f4f4f4;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+    top: 11px;
+    >header{
+        color: rgb(79, 79, 79);
+        font-size: 20px;
+        font-weight: 24px;
+        font-weight: 700;
+        margin-bottom: 11px;
+        &:hover{
+            color: #ca0c16;
+        }
+    }
+    >p{
+        >span{
+            padding-right: 20px;
+            >i{
+                padding-right: 5px;
+            }
+        }
+    }
+}
+
+ 

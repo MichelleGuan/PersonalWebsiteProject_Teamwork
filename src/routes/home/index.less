@@ -1,0 +1,47 @@
+
+@suffix : home;
+
+@navWidth : 300px;
+@propertyFontSize : 24px;
+#home@{suffix}{
+    
+     overflow: hidden;
+
+    >div:nth-child(1){
+        width: @navWidth;
+        float: left;
+
+    };
+    >div:nth-child(2){
+        margin-top: 20px;
+        width: calc(~'100% - @{navWidth}');
+        float: left;
+        color: black;
+    };
+}
+ .bigPropertyTitle@{suffix}{
+    font-size: @propertyFontSize;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+ }
+ .propertyTitle@{suffix}{
+    font-size: @propertyFontSize;
+    margin-right: 10px;
+ }
+
+ .propertyName@{suffix}{
+    position: relative  ;
+    top: -6px;
+    font-size: @propertyFontSize;
+    padding-left: 10px;
+    width: 16.6666667%;
+    display: inline-block;
+}
+
+.eleIndent@{suffix}{
+    padding-left: 20px;
+    width: 300px;
+    display: inline-block;
+    overflow: hidden;
+}
